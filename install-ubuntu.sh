@@ -127,7 +127,7 @@ echo ; echo
 
 ./$bin apt install -y nano
 ./$bin apt install -y util-linux
-./$bin apt install -y sudo
+./$bin apt install -y sudo hostname
 
 du -sh ./$folder | sort -h
 
